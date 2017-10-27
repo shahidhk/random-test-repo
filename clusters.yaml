@@ -1,0 +1,24 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: hasura
+  data: null
+  kubeContext: h34-macadam21-stg
+  name: h34-macadam21-stg
+  services: null
+- alias: stg
+  config:
+    configmap: controller-conf
+    namespace: hasura
+  data: null
+  kubeContext: h34-macadam21-stg
+  name: h34-macadam21-stg
+  services: null
+- alias: prod
+  config:
+    configmap: controller-conf
+    namespace: hasura
+  data: null
+  kubeContext: h34-macadam21-stg
+  name: h34-macadam21-stg
+  services: null
